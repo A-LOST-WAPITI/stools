@@ -325,7 +325,7 @@ def process():
         # global start_time
         # now_time = time.time()
         # global relogin_interval
-        # if (now_time - start_time) % relogin_interval == 0: # every relogin_interval seconds relogin
+        # if (now_time - start_time) % relogin_interval == 0: # every relogin_interval seconds relogin [deprived]
         #     break
         time.sleep(interval)
 
@@ -341,8 +341,6 @@ if __name__ == '__main__':
         term = conf['xk_term']
         global interval
         interval = float(conf['xk_interval'])
-        global relogin_interval
-        relogin_interval = int(conf['relogin_interval'])
         global courses
         courses = conf['xk_list']
     except:

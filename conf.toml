@@ -10,7 +10,6 @@ idnumber = ''               # 学号
 idpasswd = ''               # 密码
 xk_term = '2018-2019-2'     # 学期
 xk_interval = '10'          # 提交间隔
-relogin_interval = '600'    # 重新登录间隔（防止掉线）
 xk_list = [                 # 课程列表
     'a 00000000 01 notes',
     'd 00000000 01 other notes'
